@@ -6,13 +6,13 @@ float calculateCharges(float dollar)
     {
         return 2;
     }
-    else if(dollar==24)
-    {
-        return 10;
-    }
-    else if(dollar>=4&&dollar<24)
+    else if(dollar>=4&&dollar<=19)
     {
         return 2+0.5*(dollar-3);
+    }
+    else 
+    {
+        return 10;
     }
 
 }
