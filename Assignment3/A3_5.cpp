@@ -28,7 +28,7 @@ int main()
     cin>>three;
     cout<<endl;
     cout<<"\tCar"<<"\tHour"<<"\tCost"<<endl;
-    cout<<"\t"<< 1<< "\t"<<   one<< "\t"<<   calculateCharges(one)<<endl;
+    cout<<"\t"<< 1<< "\t"<<  one<< "\t"<<   calculateCharges(one)<<endl;
     cout<< "\t"<<  2<< "\t"<<   two<< "\t"<<   calculateCharges(two)<<endl;
     cout<< "\t"<<  3<< "\t"<<   three<<"\t"<<  calculateCharges(three)<<endl;
     a=one+two+three;
